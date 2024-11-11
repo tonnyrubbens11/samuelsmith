@@ -989,11 +989,23 @@
                 </p>                
               </li>
             </ol>
-            <button
-             class="form-btn" disabled=""
-             data-form-btn="" >
-             <a class="h4 timeline-item-title" href="resume.pdf">Download Resume</a>
-          </button>  
+   
+            <a href="resume.pdf" download>
+            <button class="form-btn" type="button">
+              <ion-icon name="download" role="img" aria-label="download">
+                <template shadowrootmode="open">
+                  <div class="icon-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                      <title>Download</title>
+                      <path d="M256 400l-144-144h96v-192h96v192h96l-144 144z"/>
+                      <path d="M448 304v128h-384v-128"/>
+                    </svg>
+                  </div>
+                </template>
+              </ion-icon>
+              <span>Download Resume</span>
+            </button>
+            </a>
           </section>
 
           <section class="skill">
